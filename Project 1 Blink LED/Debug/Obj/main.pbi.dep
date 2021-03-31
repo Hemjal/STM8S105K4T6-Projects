@@ -1,0 +1,8 @@
+main.pbi: \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
+  D:\STM8S105K4T6-Projects\Project\ 1\ Blink\ LED\src\stm8s.h \
+  D:\STM8S105K4T6-Projects\Project\ 1\ Blink\ LED\src\stm8s_delay.h \
+  D:\STM8S105K4T6-Projects\Project\ 1\ Blink\ LED\src\stm8s_gpio.h \
+  D:\STM8S105K4T6-Projects\Project\ 1\ Blink\ LED\src\stm8s_clk.h \
+  D:\STM8S105K4T6-Projects\Project\ 1\ Blink\ LED\src\stm8s_conf.h \
+  D:\STM8S105K4T6-Projects\Project\ 1\ Blink\ LED\src\main.c

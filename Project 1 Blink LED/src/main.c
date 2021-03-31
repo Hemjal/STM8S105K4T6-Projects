@@ -1,6 +1,7 @@
 /**
 ******************************************************************************
 Project: Blink On Board LED
+Board: STM8s105k4T6, Black board, ALi Express.
 Author: Md Abu Hemjal
 Date: 31st March 2021
 ******************************************************************************
@@ -48,10 +49,3 @@ void GPIO_Configuration(void)
   GPIO_DeInit(GPIOE);
   GPIO_Init(GPIOE, GPIO_PIN_5, GPIO_MODE_OUT_PP_LOW_FAST);
 }
-
-
-void Toggle(void)
-{
-  GPIO_WriteReverse(GPIOD, GPIO_PIN_0);
-}
-/****************** (c) 2008  STMicroelectronics ******************************/

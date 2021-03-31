@@ -23522,118 +23522,6 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@278@macro@LED_DELAY_MS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LED_DELAY_MS",
-    "location": {
-      "column": "9",
-      "line": "12",
-      "path": "D:\\STM8S105K4T6-Projects\\Project 1 Blink LED\\src\\main.c"
-    },
-    "name": "LED_DELAY_MS",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@CLK_Configuration",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void CLK_Configuration(void)",
-    "location": {
-      "column": "6",
-      "line": "14",
-      "path": "D:\\STM8S105K4T6-Projects\\Project 1 Blink LED\\src\\main.c"
-    },
-    "name": "CLK_Configuration",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIO_Configuration",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void GPIO_Configuration(void)",
-    "location": {
-      "column": "6",
-      "line": "15",
-      "path": "D:\\STM8S105K4T6-Projects\\Project 1 Blink LED\\src\\main.c"
-    },
-    "name": "GPIO_Configuration",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Toggle",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Toggle(void)",
-    "location": {
-      "column": "6",
-      "line": "16",
-      "path": "D:\\STM8S105K4T6-Projects\\Project 1 Blink LED\\src\\main.c"
-    },
-    "name": "Toggle",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@main",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void main(void)",
-    "location": {
-      "column": "6",
-      "line": "19",
-      "path": "D:\\STM8S105K4T6-Projects\\Project 1 Blink LED\\src\\main.c"
-    },
-    "name": "main",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@CLK_Configuration",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void CLK_Configuration(void)",
-    "location": {
-      "column": "6",
-      "line": "38",
-      "path": "D:\\STM8S105K4T6-Projects\\Project 1 Blink LED\\src\\main.c"
-    },
-    "name": "CLK_Configuration",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIO_Configuration",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void GPIO_Configuration(void)",
-    "location": {
-      "column": "6",
-      "line": "46",
-      "path": "D:\\STM8S105K4T6-Projects\\Project 1 Blink LED\\src\\main.c"
-    },
-    "name": "GPIO_Configuration",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Toggle",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Toggle(void)",
-    "location": {
-      "column": "6",
-      "line": "53",
-      "path": "D:\\STM8S105K4T6-Projects\\Project 1 Blink LED\\src\\main.c"
-    },
-    "name": "Toggle",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:intrinsics.h@239@macro@__INTRINSICS_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -23827,6 +23715,104 @@
     },
     "name": "__BSET",
     "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@326@macro@LED_DELAY_MS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED_DELAY_MS",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "D:\\STM8S105K4T6-Projects\\Project 1 Blink LED\\src\\main.c"
+    },
+    "name": "LED_DELAY_MS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_Configuration",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void CLK_Configuration(void)",
+    "location": {
+      "column": "6",
+      "line": "15",
+      "path": "D:\\STM8S105K4T6-Projects\\Project 1 Blink LED\\src\\main.c"
+    },
+    "name": "CLK_Configuration",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_Configuration",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void GPIO_Configuration(void)",
+    "location": {
+      "column": "6",
+      "line": "16",
+      "path": "D:\\STM8S105K4T6-Projects\\Project 1 Blink LED\\src\\main.c"
+    },
+    "name": "GPIO_Configuration",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Toggle",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Toggle(void)",
+    "location": {
+      "column": "6",
+      "line": "17",
+      "path": "D:\\STM8S105K4T6-Projects\\Project 1 Blink LED\\src\\main.c"
+    },
+    "name": "Toggle",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "20",
+      "path": "D:\\STM8S105K4T6-Projects\\Project 1 Blink LED\\src\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_Configuration",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void CLK_Configuration(void)",
+    "location": {
+      "column": "6",
+      "line": "39",
+      "path": "D:\\STM8S105K4T6-Projects\\Project 1 Blink LED\\src\\main.c"
+    },
+    "name": "CLK_Configuration",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_Configuration",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_Configuration(void)",
+    "location": {
+      "column": "6",
+      "line": "47",
+      "path": "D:\\STM8S105K4T6-Projects\\Project 1 Blink LED\\src\\main.c"
+    },
+    "name": "GPIO_Configuration",
+    "origin": "project_file",
     "scope": null
   },
   {

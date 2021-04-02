@@ -1,7 +1,7 @@
 #include "stm8s.h" 
 
 
-#define F_CPU 				20000000UL 
+#define F_CPU 				16000000UL 
 #define dly_const			(F_CPU / 16000000.0F) 
 
 

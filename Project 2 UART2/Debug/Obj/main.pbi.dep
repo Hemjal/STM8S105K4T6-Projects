@@ -1,0 +1,8 @@
+main.pbi: D:\STM8S105K4T6-Projects\Project\ 2\ UART2\src\stm8s_uart2.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
+  D:\STM8S105K4T6-Projects\Project\ 2\ UART2\src\stm8s.h \
+  D:\STM8S105K4T6-Projects\Project\ 2\ UART2\src\stm8s_delay.h \
+  D:\STM8S105K4T6-Projects\Project\ 2\ UART2\src\stm8s_gpio.h \
+  D:\STM8S105K4T6-Projects\Project\ 2\ UART2\src\stm8s_clk.h \
+  D:\STM8S105K4T6-Projects\Project\ 2\ UART2\src\stm8s_conf.h \
+  D:\STM8S105K4T6-Projects\Project\ 2\ UART2\src\main.c

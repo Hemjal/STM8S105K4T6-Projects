@@ -10,7 +10,7 @@ Date: 31st March 2021
 #include "stm8s.h"
 
 
-#define LED_DELAY_MS 100
+#define LED_DELAY_MS 500
 
 void CLK_Configuration(void);
 void GPIO_Configuration(void);

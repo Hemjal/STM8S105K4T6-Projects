@@ -3,7 +3,7 @@
 Project: UART2 and Blink On Board LED
 Board: STM8s105k4T6, Black board, ALi Express.
 Author: Md Abu Hemjal
-Date: 31st April 2021
+Date: 06th May 2021
 ******************************************************************************
 */
 
@@ -12,40 +12,56 @@ Date: 31st April 2021
 #include "stm8s_uart2.h"
 
 
-#define LED_DELAY_MS 100
+#define LED_DELAY_MS 5
 
 void CLK_Configuration(void);
 void GPIO_Configuration(void);
 void UART2_config(void);
 int printf(const char *str);  // Print user data and return number of data sent
 
+void SERIAL_read_response(char *text, uint8_t size) {
+  uint8_t count = 0;
+  while (count < size && UART2_GetFlagStatus(UART2_FLAG_RXNE) == 1){
+    UART2_ClearFlag(UART2_FLAG_RXNE);
+    char ch = UART2_ReceiveData8();
+    text[count++] = ch;
+    if (ch != '\n') { // ignore line feeds
+      break;
+    }
+  }
+  text[count] = '\0';
+}
+
+char Serial_read_char(void)
+{
+  //while (UART2_GetFlagStatus(UART2_FLAG_RXNE) == SET);
+  UART2_ClearFlag(UART2_FLAG_RXNE);    
+  return (UART2_ReceiveData8());
+}
 
 void main(void)
 {
-  
   CLK_Configuration();   // Configures clocks 
   GPIO_Configuration();  // Configures GPIOs
   UART2_config();        // UART2 configuration 
+  UART2_ClearFlag(UART2_FLAG_RXNE);
+  printf("Allah is great\r\n");
   
   while(1)
   {
-    UART2_ClearFlag(UART2_FLAG_RXNE);
-    printf("My name is Khan\r\n");
-    if(UART2_GetFlagStatus(UART2_FLAG_RXNE) == SET)
+    
+    if(UART2_GetFlagStatus(UART2_FLAG_RXNE) == 1)
     {
-      uint8_t ch = UART2_ReceiveData8(); 
-      UART2_SendData8(ch);
-      while(UART2_GetFlagStatus(UART2_FLAG_TXE) == RESET);            
-    }  
-    
-    GPIO_WriteHigh(GPIOE, GPIO_PIN_5);  // Blinking onboard LED
-    delay_ms(LED_DELAY_MS);
-    GPIO_WriteLow(GPIOE, GPIO_PIN_5);
-    delay_ms(LED_DELAY_MS);	
-    delay_ms(3000);
-    
-  }
-  
+      GPIO_WriteLow(GPIOE, GPIO_PIN_5); // Blinking onboard LED
+      char text[10];
+      SERIAL_read_response(text, 10);
+      printf(text);      
+    }
+    else
+    {
+      GPIO_WriteHigh(GPIOE, GPIO_PIN_5); // Blinking onboard LED
+    }
+  }  
 }
 
 
@@ -63,6 +79,7 @@ void GPIO_Configuration(void)
   GPIO_Init(GPIOD, GPIO_PIN_6, GPIO_MODE_IN_PU_NO_IT);       // uart2 RX pin
   GPIO_DeInit(GPIOE);
   GPIO_Init(GPIOE, GPIO_PIN_5, GPIO_MODE_OUT_PP_LOW_FAST);
+  GPIO_Init(GPIOE, GPIO_PIN_6, GPIO_MODE_IN_PU_NO_IT);
 }
 
 void UART2_config(void)

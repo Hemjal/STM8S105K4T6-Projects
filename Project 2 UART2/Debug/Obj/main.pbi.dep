@@ -1,16 +1,17 @@
-main.pbi: D:\STM8S105K4T6-Projects\Project\ 2\ UART2\src\stm8s_uart2.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
-  D:\STM8S105K4T6-Projects\Project\ 2\ UART2\src\stm8s.h \
-  D:\STM8S105K4T6-Projects\Project\ 2\ UART2\src\stm8s_delay.h \
-  D:\STM8S105K4T6-Projects\Project\ 2\ UART2\src\stm8s_gpio.h \
-  D:\STM8S105K4T6-Projects\Project\ 2\ UART2\src\stm8s_clk.h \
-  D:\STM8S105K4T6-Projects\Project\ 2\ UART2\src\stm8s_conf.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ysizet.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
+main.pbi: D:\STM8S105K4T6-Projects\Project\ 2\ UART2\src\main.c \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\string.h \
-  D:\STM8S105K4T6-Projects\Project\ 2\ UART2\src\main.c
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\LIB\dlstm8smn.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ysizet.h \
+  D:\STM8S105K4T6-Projects\Project\ 2\ UART2\src/stm8s.h \
+  D:\STM8S105K4T6-Projects\Project\ 2\ UART2\src/stm8s_conf.h \
+  D:\STM8S105K4T6-Projects\Project\ 2\ UART2\src/stm8s_clk.h \
+  D:\STM8S105K4T6-Projects\Project\ 2\ UART2\src/stm8s_gpio.h \
+  D:\STM8S105K4T6-Projects\Project\ 2\ UART2\src/stm8s_delay.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
+  D:\STM8S105K4T6-Projects\Project\ 2\ UART2\src/stm8s_uart2.h

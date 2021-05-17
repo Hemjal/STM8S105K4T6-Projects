@@ -3,5 +3,8 @@
     <project>
         <path>$WS_DIR$\uart2.ewp</path>
     </project>
+    <project>
+        <path>$WS_DIR$\..\Project 3 UART with Arduino\uart_arduino_stm8s.ewp</path>
+    </project>
     <batchBuild />
 </workspace>

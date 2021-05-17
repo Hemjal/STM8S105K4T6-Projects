@@ -5,70 +5,93 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\src\stm8s_gpio.h</file>
-            <file>$PROJ_DIR$\src\stm8s.h</file>
+            <file>$PROJ_DIR$\src\stm8s_delay.c</file>
             <file>$PROJ_DIR$\src\stm8s_delay.h</file>
-            <file>$PROJ_DIR$\src\stm8s_uart2.c</file>
-            <file>$PROJ_DIR$\src\stm8s_uart2.h</file>
+            <file>$PROJ_DIR$\src\stm8s.h</file>
+            <file>$PROJ_DIR$\src\stm8s_gpio.c</file>
+            <file>$PROJ_DIR$\src\stm8s_gpio.h</file>
             <file>$PROJ_DIR$\src\main.c</file>
-            <file>$PROJ_DIR$\src\stm8s_clk.c</file>
             <file>$PROJ_DIR$\src\stm8s_clk.h</file>
             <file>$PROJ_DIR$\src\stm8s_conf.h</file>
-            <file>$PROJ_DIR$\src\stm8s_gpio.c</file>
-            <file>$PROJ_DIR$\src\stm8s_delay.c</file>
+            <file>$PROJ_DIR$\src\stm8s_clk.c</file>
+            <file>$PROJ_DIR$\src\stm8s_uart2.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8s_clk.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_delay.o</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8s_uart2.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_clk.xcl</file>
-            <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.xcl</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\uart2.out</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_uart2.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
-            <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\uart2.hex</file>
-            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
-            <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
             <file>$TOOLKIT_DIR$\config\lnkstm8s105k4.icf</file>
             <file>$PROJ_DIR$\Debug\List\uart2.map</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\uart2.pbd</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_delay.xcl</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_clk.xcl</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8s_clk.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8s_uart2.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\uart2.out</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8s_delay.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+            <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_delay.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Exe\uart2.hex</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart2.pbd</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_delay.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\src\stm8s_uart2.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_uart2.o</file>
         </outputs>
         <file>
-            <name>$PROJ_DIR$\src\stm8s_uart2.c</name>
+            <name>$PROJ_DIR$\src\stm8s_delay.c</name>
             <outputs>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 21</file>
+                    <name>__cstat</name>
+                    <file> 26</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 39</file>
+                    <name>ICCSTM8</name>
+                    <file> 32</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 14</file>
+                    <file> 39</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 4 1 8 7 0 2 26</file>
+                    <file> 1 2 7 6 4 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\stm8s_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 23</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 4 2 7 6 1 27</file>
                 </tool>
             </inputs>
         </file>
@@ -76,22 +99,22 @@
             <name>$PROJ_DIR$\src\main.c</name>
             <outputs>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 12</file>
+                    <name>__cstat</name>
+                    <file> 33</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
+                    <name>ICCSTM8</name>
                     <file> 40</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 38</file>
+                    <file> 36</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 28 18 31 33 16 36 22 24 34 1 8 7 0 2 26 4</file>
+                    <file> 18 20 29 28 22 17 30 38 10 2 7 6 4 1 27 41</file>
                 </tool>
             </inputs>
         </file>
@@ -99,12 +122,12 @@
             <name>$PROJ_DIR$\src\stm8s_clk.c</name>
             <outputs>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 37</file>
-                </tool>
-                <tool>
                     <name>__cstat</name>
                     <file> 11</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 16</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
@@ -114,53 +137,30 @@
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 7 1 8 0 2 26</file>
+                    <file> 6 2 7 4 1 27</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\src\stm8s_gpio.c</name>
+            <name>$PROJ_DIR$\src\stm8s_uart2.c</name>
             <outputs>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 41</file>
-                </tool>
-                <tool>
                     <name>__cstat</name>
-                    <file> 20</file>
+                    <file> 19</file>
                 </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 17</file>
-                </tool>
-            </outputs>
-            <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 0 1 8 7 2 26</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\src\stm8s_delay.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 13</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
                     <file> 42</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 35</file>
+                    <file> 12</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 2 1 8 7 0 26</file>
+                    <file> 41 2 7 6 4 1 27</file>
                 </tool>
             </inputs>
         </file>
@@ -169,7 +169,7 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 19 30</file>
+                    <file> 21 14</file>
                 </tool>
             </outputs>
         </file>
@@ -177,18 +177,18 @@
             <name>$PROJ_DIR$\Debug\Exe\uart2.out</name>
             <outputs>
                 <tool>
-                    <name>OBJCOPY</name>
-                    <file> 25</file>
+                    <name>ILINK</name>
+                    <file> 14</file>
                 </tool>
                 <tool>
-                    <name>ILINK</name>
-                    <file> 30</file>
+                    <name>OBJCOPY</name>
+                    <file> 34</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 29 12 37 13 41 21 27 23</file>
+                    <file> 13 40 16 32 23 42 35 31</file>
                 </tool>
             </inputs>
         </file>
